@@ -1,0 +1,21 @@
+# Java ignores
+*.class
+.classpath
+.project
+.settings/*
+
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# generated files
+bin/
+gen/
+target/
+
+# Ignore gradle files
+.gradle/
+build/
+

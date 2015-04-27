@@ -21,11 +21,15 @@ public class BirdServiceTest {
 
     @Test
     public void testLetThemGo() {
-        subject.letThemGo(allBirds());
+        subject.letThemGo(allFlyingBirds());
     }
 
     private List<Bird> allBirds() {
         return Arrays.asList(new Duck(), new Penguin(), new Crow());
+    }
+
+    private List<FlyingBird> allFlyingBirds() {
+        return Arrays.asList(new Duck(), new Crow());
     }
 
 }

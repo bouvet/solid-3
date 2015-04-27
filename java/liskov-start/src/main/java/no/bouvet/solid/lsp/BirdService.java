@@ -1,20 +1,16 @@
 package no.bouvet.solid.lsp;
 
-import java.util.Arrays;
 import java.util.List;
+
 
 public class BirdService {
 
-    private List<Bird> allBirds() {
-        return Arrays.asList(new Duck(), new Penguin(), new Crow());
+    public void feedThemAll(List<Bird> birds) {
+        birds.forEach(bird -> bird.eat());
     }
 
-    public void feedThemAll() {
-        allBirds().forEach(bird -> bird.eat());
-    }
-
-    public void letThemGo() {
-        for (Bird bird : allBirds()) {
+    public void letThemGo(List<Bird> birds) {
+        for (Bird bird : birds) {
             if (bird instanceof Penguin) {
                 return;
             }
