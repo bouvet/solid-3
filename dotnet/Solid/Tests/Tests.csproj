@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E78D1978-A2DF-4519-9AD4-8EFE536A85A3}</ProjectGuid>
+    <ProjectGuid>{F6E1A9F2-1C0E-4D6E-94A5-CEB3BC708FCD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Tests</RootNamespace>
@@ -57,12 +57,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LSP\Solid.csproj">
-      <Project>{dbfb0b8f-8f09-4d2b-bb34-20d888cb9903}</Project>
+    <ProjectReference Include="..\Solid\Solid.csproj">
+      <Project>{b8523709-5484-40c7-83d1-49bf9d9285c7}</Project>
       <Name>Solid</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DE6258A8-6BC0-4503-B268-82561BCF9128}</ProjectGuid>
+    <ProjectGuid>{CDE52AF4-5F44-4CB9-94BE-E61D93505408}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RefactoredSolid</RootNamespace>
@@ -39,9 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ISP\Example1\DatabaseStore.cs" />
     <Compile Include="ISP\Example1\IDatabaseConnection.cs" />
     <Compile Include="ISP\Example1\IDatabaseOperation.cs" />
-    <Compile Include="ISP\Example1\DatabaseStore.cs" />
     <Compile Include="ISP\Example1\IFileConnection.cs" />
     <Compile Include="ISP\Example1\IFileOperation.cs" />
     <Compile Include="ISP\Example1\JsonStore.cs" />
@@ -62,7 +62,6 @@
     <Compile Include="LSP\Example2\Services\RefundService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

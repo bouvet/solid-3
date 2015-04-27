@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E61DE75A-1313-47F6-9AB6-BE2C22D7578D}</ProjectGuid>
+    <ProjectGuid>{86B9B1E9-4789-47F9-B755-04A571D0F5F4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RefactoredTests</RootNamespace>
@@ -58,7 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RefactoredSolid\RefactoredSolid.csproj">
-      <Project>{de6258a8-6bc0-4503-b268-82561bcf9128}</Project>
+      <Project>{cde52af4-5f44-4cb9-94be-e61d93505408}</Project>
       <Name>RefactoredSolid</Name>
     </ProjectReference>
   </ItemGroup>

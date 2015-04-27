@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RefactoredSolid")]
+[assembly: AssemblyTitle("RefactoredTests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RefactoredSolid")]
+[assembly: AssemblyProduct("RefactoredTests")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("d42c3e5f-acb9-41b3-a0dc-0d490099e242")]
+[assembly: Guid("f28cb7db-76bb-47fa-8b15-6fee3170ba69")]
 
 // Version information for an assembly consists of the following four values:
 //
