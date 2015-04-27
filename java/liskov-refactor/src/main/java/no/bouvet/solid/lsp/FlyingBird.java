@@ -1,6 +1,6 @@
 package no.bouvet.solid.lsp;
 
-public interface FlyingBird extends Bird {
+public abstract class FlyingBird extends Bird {
 
-    void fly();
+    abstract public void fly();
 }

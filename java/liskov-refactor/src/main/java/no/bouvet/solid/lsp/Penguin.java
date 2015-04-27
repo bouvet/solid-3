@@ -1,6 +1,6 @@
 package no.bouvet.solid.lsp;
 
-public class Penguin implements NonFlyingBird {
+public class Penguin extends NonFlyingBird {
 
     @Override
     public void eat() {

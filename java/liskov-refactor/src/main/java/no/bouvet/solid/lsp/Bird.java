@@ -1,6 +1,6 @@
 package no.bouvet.solid.lsp;
 
-public interface Bird {
+public abstract class Bird {
 
-    void eat();
+    abstract public void eat();
 }
