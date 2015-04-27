@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DE6258A8-6BC0-4503-B268-82561BCF9128}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RefactoredSolid</RootNamespace>
+    <AssemblyName>RefactoredSolid</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ISP\Example1\IDatabaseConnection.cs" />
+    <Compile Include="ISP\Example1\IDatabaseOperation.cs" />
+    <Compile Include="ISP\Example1\DatabaseStore.cs" />
+    <Compile Include="ISP\Example1\IFileConnection.cs" />
+    <Compile Include="ISP\Example1\IFileOperation.cs" />
+    <Compile Include="ISP\Example1\JsonStore.cs" />
+    <Compile Include="LSP\Example1\Bird.cs" />
+    <Compile Include="LSP\Example1\BirdService.cs" />
+    <Compile Include="LSP\Example1\Crow.cs" />
+    <Compile Include="LSP\Example1\Duck.cs" />
+    <Compile Include="LSP\Example1\FlyingBird.cs" />
+    <Compile Include="LSP\Example1\NonFlyingBird.cs" />
+    <Compile Include="LSP\Example1\Penguin.cs" />
+    <Compile Include="LSP\Example2\Domain\Payment.cs" />
+    <Compile Include="LSP\Example2\Domain\PayPalPayment.cs" />
+    <Compile Include="LSP\Example2\Domain\WorldPayPayment.cs" />
+    <Compile Include="LSP\Example2\External\PayPalWebService.cs" />
+    <Compile Include="LSP\Example2\External\WorldPayWebService.cs" />
+    <Compile Include="LSP\Example2\Services\PaymentFactory.cs" />
+    <Compile Include="LSP\Example2\Services\PaymentType.cs" />
+    <Compile Include="LSP\Example2\Services\RefundService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

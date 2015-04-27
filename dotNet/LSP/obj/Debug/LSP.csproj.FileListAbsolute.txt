@@ -1,0 +1,2 @@
+D:\Dev\Proof of concept\SOLID\dotNet\LSP\bin\Debug\LSP.exe.config
+D:\Dev\Proof of concept\SOLID\dotNet\LSP\bin\Debug\Solid.exe.config

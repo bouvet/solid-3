@@ -1,0 +1,6 @@
+D:\Dev\Proof of concept\SOLID\dotNet\LSP\obj\Debug\Solid.csprojResolveAssemblyReference.cache
+D:\Dev\Proof of concept\SOLID\dotNet\LSP\bin\Debug\Solid.dll.config
+D:\Dev\Proof of concept\SOLID\dotNet\LSP\bin\Debug\Solid.dll
+D:\Dev\Proof of concept\SOLID\dotNet\LSP\bin\Debug\Solid.pdb
+D:\Dev\Proof of concept\SOLID\dotNet\LSP\obj\Debug\Solid.dll
+D:\Dev\Proof of concept\SOLID\dotNet\LSP\obj\Debug\Solid.pdb
