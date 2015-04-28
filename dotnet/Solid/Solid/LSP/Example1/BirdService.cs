@@ -13,6 +13,10 @@ namespace Solid.LSP.Example1
         {
             foreach (Bird bird in birds)
             {
+                if (bird is Penguin)
+                {
+                    return;
+                }
                 bird.Fly();
             }
         }
