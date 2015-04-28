@@ -9,7 +9,6 @@ namespace Tests.LSP.Example1
     {
         private BirdService _subject;
 
-
         [TestInitialize]
         public void Setup()
         {
