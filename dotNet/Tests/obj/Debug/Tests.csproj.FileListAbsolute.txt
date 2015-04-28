@@ -1,7 +1,0 @@
-D:\Dev\Proof of concept\SOLID\dotNet\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
-D:\Dev\Proof of concept\SOLID\dotNet\Tests\bin\Debug\Tests.dll
-D:\Dev\Proof of concept\SOLID\dotNet\Tests\bin\Debug\Tests.pdb
-D:\Dev\Proof of concept\SOLID\dotNet\Tests\bin\Debug\Solid.dll
-D:\Dev\Proof of concept\SOLID\dotNet\Tests\bin\Debug\Solid.pdb
-D:\Dev\Proof of concept\SOLID\dotNet\Tests\obj\Debug\Tests.dll
-D:\Dev\Proof of concept\SOLID\dotNet\Tests\obj\Debug\Tests.pdb

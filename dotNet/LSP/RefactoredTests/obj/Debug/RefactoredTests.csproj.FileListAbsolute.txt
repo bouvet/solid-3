@@ -1,7 +1,0 @@
-D:\Dev\Proof of concept\SOLID\dotNet\LSP\RefactoredTests\obj\Debug\RefactoredTests.csprojResolveAssemblyReference.cache
-D:\Dev\Proof of concept\SOLID\dotNet\LSP\RefactoredTests\bin\Debug\RefactoredTests.dll
-D:\Dev\Proof of concept\SOLID\dotNet\LSP\RefactoredTests\bin\Debug\RefactoredTests.pdb
-D:\Dev\Proof of concept\SOLID\dotNet\LSP\RefactoredTests\bin\Debug\RefactoredSolid.dll
-D:\Dev\Proof of concept\SOLID\dotNet\LSP\RefactoredTests\bin\Debug\RefactoredSolid.pdb
-D:\Dev\Proof of concept\SOLID\dotNet\LSP\RefactoredTests\obj\Debug\RefactoredTests.dll
-D:\Dev\Proof of concept\SOLID\dotNet\LSP\RefactoredTests\obj\Debug\RefactoredTests.pdb

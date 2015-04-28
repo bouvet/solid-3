@@ -1,5 +1,0 @@
-D:\Dev\Proof of concept\SOLID\dotNet\LSP\RefactoredSolid\bin\Debug\RefactoredSolid.dll
-D:\Dev\Proof of concept\SOLID\dotNet\LSP\RefactoredSolid\bin\Debug\RefactoredSolid.pdb
-D:\Dev\Proof of concept\SOLID\dotNet\LSP\RefactoredSolid\obj\Debug\RefactoredSolid.dll
-D:\Dev\Proof of concept\SOLID\dotNet\LSP\RefactoredSolid\obj\Debug\RefactoredSolid.pdb
-D:\Dev\Proof of concept\SOLID\dotNet\LSP\RefactoredSolid\obj\Debug\RefactoredSolid.csprojResolveAssemblyReference.cache
